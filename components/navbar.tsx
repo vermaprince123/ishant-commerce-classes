@@ -18,6 +18,7 @@ const navItems = [
     submenu: [
       { name: "Accountancy", href: "/subjects/accountancy" },
       { name: "Business", href: "/subjects/business" },
+      { name: "Economics", href: "/subjects/economics" },
     ],
   },
   {

@@ -7,7 +7,7 @@ A modern, responsive website for Ishant Commerce Classes - a premier result-orie
 - **Modern UI/UX**: Beautiful, light-colored design with smooth animations
 - **Dark/Light Theme**: Toggle between light and dark modes
 - **Fully Responsive**: Mobile-first design that works on all devices
-- **Interactive Components**: 
+- **Interactive Components**:
   - Animated hero banner with floating education icons
   - YouTube video gallery with automatic thumbnail fallback
   - Photo gallery section
@@ -30,18 +30,20 @@ A modern, responsive website for Ishant Commerce Classes - a premier result-orie
 
 ## 📋 Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm, yarn, pnpm, or bun
 
 ## 🛠️ Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd ishant-commerce-classes
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 # or
@@ -51,6 +53,7 @@ pnpm install
 ```
 
 3. Run the development server:
+
 ```bash
 npm run dev
 # or
@@ -111,28 +114,32 @@ ishant-commerce-classes/
 
 The contact form uses a `mailto:` link to open the user's email client with pre-filled details. No backend API is required.
 
-**Email**: info@ishantclasses.com
+**Email**: ishantvermasrcc@gmail.com
 
 ## 🎯 Features in Detail
 
 ### Hero Banner
+
 - Animated floating education icons
 - Dynamic gradient backgrounds
 - Statistics showcase (Rating, Reviews, Students, Years)
 - Smooth transitions and hover effects
 
 ### YouTube Integration
+
 - Automatic thumbnail loading with fallback system
 - Links to actual YouTube channel videos
 - Subscribe button to channel
 
 ### Theme System
+
 - Light/Dark mode toggle
 - System preference detection
 - Smooth theme transitions
 - Persistent theme selection
 
 ### Navigation
+
 - Dropdown menus for Subjects and Cities
 - Mobile-responsive hamburger menu
 - Smooth hover effects
@@ -150,6 +157,7 @@ The easiest way to deploy is using [Vercel](https://vercel.com):
 ### Other Platforms
 
 You can also deploy to:
+
 - **Netlify**: Connect your Git repository
 - **AWS Amplify**: Follow Next.js deployment guide
 - **Self-hosted**: Build and run `npm run build && npm start`
@@ -162,15 +170,17 @@ Currently, no environment variables are required. If you plan to add email servi
 # Example for future email service
 # RESEND_API_KEY=your_api_key
 # EMAIL_FROM=noreply@yourdomain.com
-# EMAIL_TO=info@ishantclasses.com
+# EMAIL_TO=ishantvermasrcc@gmail.com
 ```
 
 ## 🔧 Customization
 
 ### Colors
+
 Edit `app/globals.css` to change the color scheme. The project uses CSS variables with `oklch` color space.
 
 ### Content
+
 - Update contact information in `components/footer.tsx` and `app/contact/page.tsx`
 - Modify testimonials in `components/sections/testimonials.tsx`
 - Update YouTube videos in `components/sections/youtube-links.tsx`
@@ -211,7 +221,8 @@ All rights reserved. © 2024 Ishant Commerce Classes
 ## 📞 Support
 
 For issues or questions:
-- **Email**: info@ishantclasses.com
+
+- **Email**: ishantvermasrcc@gmail.com
 - **Phone**: +91 91384 05051
 - **Address**: 85, behind Attri Property, HUDA Sector-2, Palwal, Haryana 121102
 

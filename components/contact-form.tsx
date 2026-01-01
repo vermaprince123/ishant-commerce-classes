@@ -41,7 +41,7 @@ export function ContactForm() {
     const emailBody = `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\n\nSubject: ${data.subject}\n\nMessage:\n${data.message}`;
 
     // Create mailto link with all details
-    const emailAddress = "info@ishantclasses.com";
+    const emailAddress = "ishantvermasrcc@gmail.com";
     const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(
       data.subject
     )}&body=${encodeURIComponent(emailBody)}`;
@@ -163,7 +163,7 @@ export function ContactForm() {
           className="p-4 rounded-md bg-green-500/10 border border-green-500/20 text-green-600 dark:text-green-400"
         >
           Your email client should open with the message. If it doesn't, please
-          email us directly at info@ishantclasses.com
+          email us directly at ishantvermasrcc@gmail.com
         </motion.div>
       )}
 

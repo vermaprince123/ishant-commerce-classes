@@ -1,17 +1,18 @@
-"use client"
+"use client";
 
-import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer"
-import { ContactForm } from "@/components/contact-form"
-import { motion } from "framer-motion"
-import { Mail, Phone, MapPin, Clock } from "lucide-react"
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
+import { ContactForm } from "@/components/contact-form";
+import { motion } from "framer-motion";
+import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
       title: "Address",
-      content: "85, behind Attri Property, HUDA Sector-2, Palwal, Haryana 121102",
+      content:
+        "85, behind Attri Property, HUDA Sector-2, Palwal, Haryana 121102",
     },
     {
       icon: Phone,
@@ -22,15 +23,15 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email",
-      content: "info@ishantclasses.com",
-      link: "mailto:info@ishantclasses.com",
+      content: "ishantvermasrcc@gmail.com",
+      link: "mailto:ishantvermasrcc@gmail.com",
     },
     {
       icon: Clock,
       title: "Timings",
       content: "Mon - Sat: Opens at 3:00 PM",
     },
-  ]
+  ];
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -45,9 +46,12 @@ export default function ContactPage() {
               transition={{ duration: 0.5 }}
               className="text-center max-w-3xl mx-auto"
             >
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                Contact Us
+              </h1>
               <p className="text-lg text-muted-foreground">
-                Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+                Have questions? We'd love to hear from you. Send us a message
+                and we'll respond as soon as possible.
               </p>
             </motion.div>
           </div>
@@ -67,12 +71,13 @@ export default function ContactPage() {
               >
                 <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
                 <p className="text-muted-foreground text-lg">
-                  We're here to help! Reach out to us through any of the following ways.
+                  We're here to help! Reach out to us through any of the
+                  following ways.
                 </p>
 
                 <div className="space-y-4">
                   {contactInfo.map((info, index) => {
-                    const Icon = info.icon
+                    const Icon = info.icon;
                     return (
                       <motion.div
                         key={index}
@@ -95,11 +100,13 @@ export default function ContactPage() {
                               {info.content}
                             </a>
                           ) : (
-                            <p className="text-muted-foreground">{info.content}</p>
+                            <p className="text-muted-foreground">
+                              {info.content}
+                            </p>
                           )}
                         </div>
                       </motion.div>
-                    )
+                    );
                   })}
                 </div>
               </motion.div>
@@ -121,6 +128,5 @@ export default function ContactPage() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
-

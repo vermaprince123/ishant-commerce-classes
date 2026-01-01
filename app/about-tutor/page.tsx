@@ -60,9 +60,7 @@ export default function AboutTutorPage() {
                 <p className="text-sm text-muted-foreground">
                   Ishant Verma is an SRCC alumnus and a dedicated commerce tutor
                   with over a decade of experience preparing students for board
-                  exams and competitive entrance tests. Replace the image in
-                  `public/ishant.svg` with the actual photo you prefer — I added
-                  a placeholder here.
+                  exams and competitive entrance tests.
                 </p>
               </div>
             </motion.div>

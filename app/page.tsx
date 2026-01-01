@@ -2,6 +2,7 @@
 
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { AnnouncementBanner } from "@/components/announcement-banner";
 import { HeroBanner } from "@/components/sections/hero-banner";
 import { Features } from "@/components/sections/features";
 import { Achievements } from "@/components/sections/achievements";
@@ -14,6 +15,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
+      <AnnouncementBanner />
       <Navbar />
       <main className="flex-1">
         {/* Hero Banner */}

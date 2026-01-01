@@ -40,6 +40,7 @@ const footerLinks = {
   subjects: [
     { name: "Accountancy", href: "/subjects/accountancy" },
     { name: "Business", href: "/subjects/business" },
+    { name: "Economics", href: "/subjects/economics" },
   ],
   cities: [
     { name: "Palwal", href: "/cities/palwal" },
@@ -144,10 +145,10 @@ export function Footer() {
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-muted-foreground" />
                 <a
-                  href="mailto:info@ishantclasses.com"
+                  href="mailto:ishantvermasrcc@gmail.com"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  info@ishantclasses.com
+                  ishantvermasrcc@gmail.com
                 </a>
               </li>
             </ul>
