@@ -11,7 +11,15 @@ import { cn } from "@/lib/utils";
 const navItems = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
-  { name: "About Tutor", href: "/about-tutor" },
+  {
+    name: "About Tutor",
+    href: "#",
+    submenu: [
+      { name: "About the Tutor", href: "/about-tutor" },
+      { name: "Ishant Verma", href: "/about-tutor/ishant-verma" },
+      { name: "Rudanshi Ahuja", href: "/about-tutor/rudanshi-ahuja" },
+    ],
+  },
   {
     name: "Subjects",
     href: "#",
