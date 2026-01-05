@@ -23,8 +23,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email",
-      content: "ishantvermasrcc@gmail.com",
-      link: "mailto:ishantvermasrcc@gmail.com",
+      content: "ishantverma1421@gmail.com",
+      link: "mailto:ishantverma1421@gmail.com",
     },
     {
       icon: Clock,

@@ -114,7 +114,7 @@ ishant-commerce-classes/
 
 The contact form uses a `mailto:` link to open the user's email client with pre-filled details. No backend API is required.
 
-**Email**: ishantvermasrcc@gmail.com
+**Email**: ishantverma1421@gmail.com
 
 ## 🎯 Features in Detail
 
@@ -170,7 +170,7 @@ Currently, no environment variables are required. If you plan to add email servi
 # Example for future email service
 # RESEND_API_KEY=your_api_key
 # EMAIL_FROM=noreply@yourdomain.com
-# EMAIL_TO=ishantvermasrcc@gmail.com
+# EMAIL_TO=ishantverma1421@gmail.com
 ```
 
 ## 🔧 Customization
@@ -222,7 +222,7 @@ All rights reserved. © 2024 Ishant Commerce Classes
 
 For issues or questions:
 
-- **Email**: ishantvermasrcc@gmail.com
+- **Email**: ishantverma1421@gmail.com
 - **Phone**: +91 91384 05051
 - **Address**: 85, behind Attri Property, HUDA Sector-2, Palwal, Haryana 121102
 

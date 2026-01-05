@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
     // const resend = new Resend(process.env.RESEND_API_KEY)
     // await resend.emails.send({
     //   from: 'onboarding@resend.dev',
-    //   to: 'ishantvermasrcc@gmail.com',
+    //   to: 'ishantverma1421@gmail.com',
     //   subject: subject,
     //   html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Phone: ${phone}</p><p>Message: ${message}</p>`,
     // })
