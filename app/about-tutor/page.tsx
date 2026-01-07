@@ -35,12 +35,12 @@ const tutors = [
   {
     id: "rudanshi-ahuja",
     name: "Rudanshi Ahuja",
-    image: "/rudanshi.png", // Placeholder - user will add photo
+    image: "/rudanshi.jpg", // Placeholder - user will add photo
     title: "Commerce Educator",
     description:
       "A dedicated commerce educator with expertise in teaching commerce subjects to class XII students.",
     qualifications: [
-      "M.Com, IB & HRM - Delhi School of Economics-DU (Pursuing)",
+      "M.Com, IB & HRM - Delhi School of Economics-DU",
       "B.Com(H) - Kirori Mal College, Delhi University",
       "Teaching Experience with Class XII Students",
     ],
@@ -75,7 +75,7 @@ function TutorCard({ tutor, index }: { tutor: typeof tutors[0]; index: number })
                 alt={tutor.name}
                 width={200}
                 height={200}
-                className="rounded-full object-cover"
+                className="rounded-full object-cover w-full h-full"
                 onError={() => setImageError(true)}
               />
             ) : (

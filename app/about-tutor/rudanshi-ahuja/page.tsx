@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { GraduationCap, Award, BookOpen, Users, Star } from "lucide-react";
 
 const qualifications = [
-  "M.Com, IB & HRM - Delhi School of Economics-DU (Pursuing)",
+  "M.Com, IB & HRM - Delhi School of Economics-DU",
   "B.Com(H) - Kirori Mal College, Delhi University",
   "12th - Commerce, CBSE (9.8 CGPA, 2016)",
   "10th - Commerce, CBSE (92%, 2014)",
@@ -47,14 +47,14 @@ export default function RudanshiAhujaPage() {
               className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
             >
               <div className="flex justify-center md:justify-end">
-                <div className="relative">
+                <div className="relative w-[240px] h-[240px] rounded-full shadow-lg overflow-hidden bg-muted">
                   <Image
-                    src="/rudanshi.png"
+                    src="/rudanshi.jpg"
                     alt="Rudanshi Ahuja"
                     width={240}
                     height={240}
                     priority
-                    className="rounded-full shadow-lg object-cover bg-muted"
+                    className="rounded-full object-cover w-full h-full"
                     onError={(e) => {
                       // Fallback to placeholder if image doesn't exist
                       const target = e.target as HTMLImageElement;
@@ -73,7 +73,7 @@ export default function RudanshiAhujaPage() {
                 </p>
                 <p className="text-sm text-muted-foreground">
                   A dedicated commerce educator with expertise in teaching
-                  commerce subjects to class XII students. Currently pursuing
+                  commerce subjects to class XII students.
                   M.Com from Delhi School of Economics, one of India's top
                   business schools.
                 </p>
