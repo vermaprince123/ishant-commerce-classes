@@ -23,6 +23,21 @@ export const metadata: Metadata = {
     "Premier result-oriented institute in Palwal run by SRCC Alumni Ishant Verma. 5.0 Rating with 343+ Google Reviews. Expert Accountancy and Business Studies coaching. UGC Net Qualified tutor with 10+ years experience. Enroll now!",
   icons: {
     icon: "/logo.png",
+    apple: "/logo.png",
+  },
+  manifest: "/manifest.json",
+  themeColor: "#000000",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Ishant Commerce Classes",
+  },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+    viewportFit: "cover",
   },
 };
 
