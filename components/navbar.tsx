@@ -37,6 +37,7 @@ const navItems = [
       { name: "Faridabad", href: "/cities/faridabad" },
     ],
   },
+  { name: "Announcements", href: "/announcements" },
   { name: "FAQ", href: "/faq" },
   { name: "Contact Us", href: "/contact" },
 ];

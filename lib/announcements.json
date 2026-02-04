@@ -1,0 +1,12 @@
+[
+    {
+  "id": "announcement-1234567890",
+  "title": "New Batch Starting Soon!",
+  "description": "Join our new batch starting from January 2025",
+  "imageUrl": "/announcements/new-batch-jan-2025.jpg",
+  "createdAt": "2025-01-15T10:00:00.000Z",
+  "updatedAt": "2025-01-15T10:00:00.000Z",
+  "isActive": true,
+  "category": "batch"
+}
+]
